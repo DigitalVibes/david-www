@@ -4,6 +4,17 @@ export default rc('david', {
   brains: {
     cacheTime: 86400000
   },
+  gitlab: {
+    api: {
+      url: 'https://www.gitlab.com/api/v3'
+    },
+    oauth: {
+      id: null,
+      secret: null
+    },
+    token: '5DRBekN7LKHRvzf4YtNt',
+    defaultBranch: 'master'
+  },
   github: {
     api: {
       version: '3.0.0',

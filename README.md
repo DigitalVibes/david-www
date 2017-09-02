@@ -36,6 +36,8 @@ do the following:
 View a web page of all dependencies (and their updates, and their versions)
 for **public** GitHub repository "grunt-jsio" owned by "alanshaw":
 
+###Github
+
 ```sh
 curl http://localhost:1337/alanshaw/grunt-jsio
 ```
@@ -45,6 +47,27 @@ Get the current build status badge:
 ```sh
 curl http://localhost:1337/alanshaw/grunt-jsio.png
 ```
+
+OR
+
+```sh
+curl http://localhost:1337/alanshaw/grunt-jsio.svg
+```
+
+###Gitlab
+
+Get the current build status badge:
+
+```sh
+curl http://localhost:1337/r/gitlab/<username>/<project-name>/status.png
+```
+
+OR
+
+```sh
+curl http://localhost:1337/r/gitlab/<username>/<project-name>/status.svg
+```
+
 
 ## Configuration
 
