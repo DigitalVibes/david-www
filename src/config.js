@@ -12,7 +12,7 @@ export default rc('david', {
       id: null,
       secret: null
     },
-    token: '5DRBekN7LKHRvzf4YtNt',
+    token: null,
     defaultBranch: 'master'
   },
   github: {
